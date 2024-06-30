@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sign In" verbose="2">
+    <test name="Sign In" parallel="tests" >
+        <classes>
+            <class name="com.hust.testcases.SignInTest"/>
+        </classes>
+    </test>
+</suite>
